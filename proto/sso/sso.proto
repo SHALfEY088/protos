@@ -20,8 +20,7 @@ service Auth {
 // TODO: На будущее, следующий сервис можно описать прямо здесь,
 // либо вынести в отдельный файл
 // service Permissions {
-//	GetUserPermissions(GetUserPermissionsRequest) 
-    return UserPermissions
+//    GetUserPermissions(GetUserPermissionsRequest) return UserPermissions
 // }
 
 // Объект, который отправляется при вызове RPC-метода (ручки) Register.
@@ -30,7 +29,7 @@ message RegisterRequest {
   string password = 2; // Password of the user to register.
 }
 
-// Объект, котрый метод (ручка) вернет.
+// Объект, котрый метод (ручка) вернёт.
 message RegisterResponse {
   int64 user_id = 1; // User ID of the registered user.
 }
