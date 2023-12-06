@@ -1,4 +1,4 @@
-module github.com/SHALfEY088/protos
+module protos
 
 go 1.21.1
 
